@@ -1,26 +1,108 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-body {
-  font-family: "Proza Libre", Arial, Helvetica, sans-serif sans-serif;
-  background-color: #f5f6f7;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #292b2c;
-  height: 100%;
+body,
+html {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
 }
 
-.top-area {
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  height: 74px;
-  color: #5e6573;
-  text-align: center;
+.wrapper1 {
+	background: url('https://images.squarespace-cdn.com/content/v1/55f32473e4b029b54a7228d2/1466543065801-EHV8I3WTFMBVWR9W2Q8G/ke17ZwdGBToddI8pDm48kC1O9yDgdgttCmUEePzG54N7gQa3H78H3Y0txjaiv_0fmUlfgh0PDRwdBlKSZS7d3k2BBJxBkQ8Cj-gOFOgR0OkbAo46xV05MoL3_PffCbiVOqpeNLcJ80NK65_fV7S1UfAiUEZzHqdkykur3Kr0zKOKvSnbyaiCOuk3quXrOqj1W07ycm2Trb21kYhaLJjddA/60+Best+Girls%27+Night+Movies?format=2500w');
+	height: 75vh;
+	width: 100vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.darken-overlay div {
+	position: absolute;
+	top: -1px;
+	width: 100%;
+	height: 79%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.top-nav {
+	position: relative;
+	height: 90px;
+	color: #e50914;
+	text-transform: uppercase;
+	font-size: 40px;
+	z-index: 2;
+}
+
+.main {
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	text-decoration: none;
+	color: #e50914;
+	text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.6);
+	letter-spacing: 1px;
+
+
+}
+
+.button {
+	position: absolute;
+	right: 3%;
+	top: 32%;
+	background: #e50914;
+	padding: 7px 17px;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.text-wrapper {
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+	max-width: 100%;
+	font-size: 45px;
+	text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.6);
+	z-index: 1;
+}
+
+.giant-button {
+	text-decoration: none;
+	background: #e50914;
+	color: #fff;
+	padding: 40px;
+	border-radius: 5px;
+	font-size: 40px;
+	text-transform: uppercase;
+	position: relative;
+	top: 100px;
+}
+
+
+.giant-button .greater-than {
+	position: absolute;
+	right: 13px;
+	top: 28%;
+}
+
+.giant-button .trial {
+	position: relative;
+	left: -10px
+}
+
+/*Icons*/
+
+.icons {
+	padding-top: 15px;
+	height: 120px;
+	background: #141414;
+	color: white;
+	font-size: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-top: none;
+	border-bottom: 2px solid #3d3d3d;
 }
